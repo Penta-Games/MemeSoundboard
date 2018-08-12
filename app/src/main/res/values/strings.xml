@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Meme and Vine Soundboard</string>
+    <string name="package_name">com.yourdevelopername.yourappname</string>
+
+
+    <!--Ad-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ad_frequency">2</string>
+
+
+    <!--Tab names-->
+    <string name="tab1">Memes</string>
+    <string name="tab2">Vines</string>
+    <!--Share app-->
+    <string name="playstore_link">-PUT THE LINK TO YOUR APP HERE-</string>
+    <string name="share_text">Get the</string>
+    <string name="share_via">Share via...</string>
+
+    <!--Sidebar titles-->
+    <string name="menu_title_sound">Sounds</string>
+    <string name="menu_title_share">Share app</string>
+
+    <!--Long click at sound-->
+    <string name="share_sound_title">Share sound</string>
+    <string name="set_tone_as_title">Set tone as...</string>
+    <string name="share_sound_via">Share sound via...</string>
+    <string name="ringtone_title">Ringtone</string>
+    <string name="notification_title">Notification</string>
+    <string name="alarm_title">Alarm tone</string>
+
+    <!--Permission-->
+    <string name="notice_that_app_needs_access_to_settings">The app needs access to your settings</string>
+
+    <!--This is where the sounds are saved if you share or save one-->
+    <string name="foldername">memesoundboard</string>
+
+
+
+</resources>
