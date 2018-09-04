@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">Meme and Vine Soundboard</string>
-    <string name="package_name">com.yourdevelopername.yourappname</string>
+    <string name="package_name">com.greenwoodproductions.memesoundboard</string>
 
 
     <!--Ad-->
@@ -14,7 +14,7 @@
     <string name="tab1">Memes</string>
     <string name="tab2">Vines</string>
     <!--Share app-->
-    <string name="playstore_link">-PUT THE LINK TO YOUR APP HERE-</string>
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=com.greenwoodproductions.memesoundboard</string>
     <string name="share_text">Get the</string>
     <string name="share_via">Share via...</string>
 

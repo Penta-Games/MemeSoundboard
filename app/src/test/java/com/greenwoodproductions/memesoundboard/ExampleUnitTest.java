@@ -1,4 +1,4 @@
-package com.yourdevelopername.yourappname;
+package com.greenwoodproductions.memesoundboard;
 
 import org.junit.Test;
 

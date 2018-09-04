@@ -1,4 +1,4 @@
-package com.yourdevelopername.yourappname.tabs;
+package com.greenwoodproductions.memesoundboard.tabs;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -29,8 +29,8 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.yourdevelopername.yourappname.MainActivity;
-import com.yourdevelopername.yourappname.R;
+import com.greenwoodproductions.memesoundboard.MainActivity;
+import com.greenwoodproductions.memesoundboard.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -49,9 +49,9 @@ public class Tab2 extends Fragment {
 
     // Here you can change the displayed text on the buttons in Tab2
     public String[] items ={
-            "Button113","Button22","Button33","Button44","Button55","Button66","Button77","Button88","Button99","Button100",
-            "Button111","Button222","Button333","Button444","Button555","Button666","Button777","Button888","Button999","Button200",
-            "Button1111","Button2222","Button3333","Button4444","Button5555","Button6666","Button7777","Button8888","Button9999","Button400",
+            "All around me are familiar faces","Did you just assume my gender?","It is wednesday my dudes\n(wait for it)","Yaaa","Damn Daniel","Deez Nutz","FR E SH A VOCA DO","I can't believe you've done this","PATRICIA!","What is going on inside their head?",
+            "Why the f*ck you lying","YOU SHALL NOT PASS!","Zac stop!","Is that a chicken?","What are you waiting for","Cut it up","A Child","I'm an adult virgin","Two shots of vodka","Look at all those chickens",
+            "This is why mom does'nt f*cking love you","Two bros chillin in a hot tub","Is there anything better than p*ssy?","Adam!","Can I please get a waffle?","I'm a wolf","Let's Mc Freakin' lose it","OMG","HE HE","Smack that Bitch hehe",
     };
 
     // Here you can change the mp3 files of the buttons in Tab2

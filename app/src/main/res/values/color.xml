@@ -2,8 +2,8 @@
 <resources>
 
 
-    <color name="iconbar">#fd6112</color>
-    <color name="main_color">#fc430d</color>
+    <color name="iconbar">#10a300</color>
+    <color name="main_color">#14ca00</color>
     <color name="button_start_color">#37474F</color>
     <color name="button_end_color">#777e93</color>
     <color name="black">#000</color>

@@ -1,4 +1,4 @@
-package com.yourdevelopername.yourappname;
+package com.greenwoodproductions.memesoundboard;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -14,8 +14,8 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.yourdevelopername.yourappname.tabs.Tab1;
-import com.yourdevelopername.yourappname.tabs.Tab2;
+import com.greenwoodproductions.memesoundboard.tabs.Tab1;
+import com.greenwoodproductions.memesoundboard.tabs.Tab2;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

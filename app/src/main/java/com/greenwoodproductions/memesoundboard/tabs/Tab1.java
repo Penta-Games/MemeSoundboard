@@ -1,4 +1,4 @@
-package com.yourdevelopername.yourappname.tabs;
+package com.greenwoodproductions.memesoundboard.tabs;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -29,8 +29,8 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.yourdevelopername.yourappname.MainActivity;
-import com.yourdevelopername.yourappname.R;
+import com.greenwoodproductions.memesoundboard.MainActivity;
+import com.greenwoodproductions.memesoundboard.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -50,11 +50,11 @@ public class Tab1 extends Fragment {
 
     // Here you can change the displayed text on the buttons in Tab1
     public String[] items ={
-            "Button1", "Button2","Button3","Button4","Button5","Button6","Button7","Button8","Button9","Button10",
-            "Button11","Button12","Button13","Button14","Button15","Button16","Button17","Button18","Button19","Button20",
-            "Button21","Button22","Button23","Button24","Button25","Button26","Button27","Button28","Button29","Button30",
-            "Button31","Button32","Button33","Button34","Button35","Button36","Button37","Button38","Button39","Button40",
-            "Button41","Button42","Button43",
+            "Do you know da wae?", "Have you ever had a dream","I have crippling depression","Somebody toucha my spaghet","We need to build a wall","wow","Yeah boii","Allahu Akbar","John Cena","Are you sure about that?",
+            "Best cry ever","Booom headshot","Dramatic Chipmunk","EA Sports","ESKETIT","Fatality","Ghost Busters","Ha Gay!","Hello","I Like Turtles",
+            "I'm a Fidget Spinner","I'm Gay","I'ts a me Mario","Mans not hot","MLG Airhorn","MOM GET THE CAMERA","My name is Jeff","No, this is Patrick","Oh Baby a tripple","Ok",
+            "Panda","Peter Griffin laugh","Pikatchu","Shut the f*ck up","Shooting Stars","Smoke Weed Everyday","Stop it, get some help","Big Shaq","Thomas the tank engine","Wasted",
+            "Whatzzaaaappp","WTF BOOOM","You just have to say that you're fine",
     };
 
     // Here you can change the mp3 files of the buttons in Tab1

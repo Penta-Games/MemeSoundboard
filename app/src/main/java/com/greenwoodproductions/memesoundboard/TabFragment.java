@@ -1,4 +1,4 @@
-package com.yourdevelopername.yourappname;
+package com.greenwoodproductions.memesoundboard;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
-import com.yourdevelopername.yourappname.tabs.Tab1;
-import com.yourdevelopername.yourappname.tabs.Tab2;
+import com.greenwoodproductions.memesoundboard.tabs.Tab1;
+import com.greenwoodproductions.memesoundboard.tabs.Tab2;
 
 
 public class TabFragment extends Fragment {
