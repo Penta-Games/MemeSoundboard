@@ -15,5 +15,10 @@
         android:layout_marginTop="10dp"
         android:icon="@drawable/shareimg" />
 
+    <item android:title="Imprint"
+        android:id="@+id/rechtliches"
+        android:layout_marginTop="10dp"
+        android:icon="@drawable/gesetzt" />
+
 
 </menu>

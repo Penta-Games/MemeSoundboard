@@ -1,5 +1,6 @@
 package com.greenwoodproductions.memesoundboard;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
@@ -67,6 +69,21 @@ public class MainActivity extends AppCompatActivity {
                         shareIntent.putExtra(Intent.EXTRA_SUBJECT, getText(R.string.app_name));
                         shareIntent.putExtra(Intent.EXTRA_TEXT, getText(R.string.share_text) + " " +  getText(R.string.app_name) + "\n\n" + getText(R.string.playstore_link));
                         startActivity(Intent.createChooser(shareIntent,  getText(R.string.share_via)));
+                        break;
+
+                    case R.id.rechtliches:
+                        AlertDialog.Builder a_builder = new AlertDialog.Builder(MainActivity.this);
+                        a_builder.setMessage(R.string.rechtliches)
+                                .setCancelable(true)
+                                .setNegativeButton("Ok", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int i) {
+                                        dialog.cancel();
+                                    }
+                                });
+                        AlertDialog alert = a_builder.create();
+                        alert.setTitle("Imprint");
+                        alert.show();
                         break;
 
                 }

@@ -30,6 +30,8 @@
     <string name="notification_title">Notification</string>
     <string name="alarm_title">Alarm tone</string>
 
+    <string name="rechtliches">This is an unofficial app, which was made by two students. If your content is shown in this app and you don\'t agree with it, please get in contact with us and we will delete the content from you immediately.\n\n<b>Imprint:</b>\nMica Grünewald\n\n\nmicagrnwld@gmail.com</string>
+
     <!--Permission-->
     <string name="notice_that_app_needs_access_to_settings">The app needs access to your settings</string>
 
